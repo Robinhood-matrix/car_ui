@@ -65,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       children: <Widget>[
                         _mainLogo(),
                         SizedBox(
-                          height: 40,
+                          height: 50,
                         ),
                         const Text(
                           'HYUNDAI',
@@ -89,7 +89,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       fit: BoxFit.fill,
                     )),
                 Positioned(
-                  top: 520,
+                  top: 500,
                   child: Container(
                     padding: EdgeInsets.all(20),
                     height: 380,
